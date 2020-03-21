@@ -1,0 +1,215 @@
+@charset "utf-8";
+
+/* parts
+-------------------------------------*/
+.wrap {
+	overflow: hidden;
+	margin: 0 auto;
+	width: 100%;
+}
+.spNone {
+	display: none;
+}
+.pcOn {
+	display: block;
+}
+/* layout
+-------------------------------------*/
+
+/* mainvisual
+-------------------------------------*/
+.relative{
+    position: relative;  
+}
+h1{
+	font-size:40px;
+	clear:both;
+	text-align:center;
+	padding-top:30px;
+}
+#sec0 ul li{
+	margin-left: 20px;
+}
+.breadcrumb1{
+	float:left;
+	border-right:solid 1px;
+	padding-right:15px;
+	margin-bottom:20px;
+}
+.breadcrumb2{
+	float:left;
+	padding-left:15px;
+	margin-bottom:20px;
+}
+.mv-layout{
+	clear: both;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+/* main contents
+-------------------------------------*/
+.main-area{
+	max-width: 980px;
+	margin: 0 auto;
+}
+h2{
+	line-height:30pt;
+	position: absolute;
+	padding-left: 60%;
+}
+	/* anchor list
+	-------------------------------------*/
+	.explaining{
+	font-size:16px;
+	padding-bottom:10px;
+	padding-top:30px;
+	padding-left: 20px;
+	}
+	.anchor-list{
+		width:100%;
+		height:60px;
+		padding-bottom:10px;
+		padding-left: 20px;
+	}
+	.anchor-list-float{
+		float:left;
+		padding-right:25px;
+		font-size:14px;
+	}
+	.anchor-list a{
+		text-decoration:none;
+		color:#000;
+	}
+	.anchor-list a:hover{
+		opacity:0.6;
+	}
+	.anchor-list a:before{
+	content:url(../../../common/images/icon/allow.png);
+    display: inline-block;
+    width: 14px;
+    height: 14px;
+    margin: 8px 0px 5px 0;
+    vertical-align: middle;
+	}
+	/*-------------------------------------*/
+
+.contentbox{
+	padding-bottom:50px;
+	clear: both;
+	width: 100%;
+	background-color: #efefef;
+	margin-bottom: 30px;
+}
+@media screen and (min-width: 667px) and ( max-width: 900px){
+.contentbox{
+	height: 280px;
+}
+}
+.contentbox-img{
+	max-width: 50%;
+	float: left;
+	margin-right: 20px;
+}
+.text{
+	max-width: 100%;
+	height:250px;
+	font-size:13.5px;
+}
+.inner-text{
+	padding-top:10px;
+	padding-left:20px;
+	padding-right:20px;
+	line-height: 1.7;
+}
+.learn-more{
+	font-weight:bold;
+	text-align:right;
+	font-size:9pt;
+	padding-right:10px;
+}
+.map{
+	font-weight:bold;
+	text-align:right;
+	font-size:9pt;
+	padding-right:10px;
+}
+.learn-more:before{
+	content:url(../../../common/images/icon/jump-icon.png);
+    display: inline-block;
+    width: 14px;
+    height: 14px;
+    margin: 0px 7px 5px 0;
+    vertical-align: middle;
+}
+.text p a{
+	text-decoration:none;
+	color:#de0000;
+}
+.text p a:hover{
+	opacity:0.6;
+}
+
+@media screen and (min-width:320px) and ( max-width:667px) {
+.wrap {
+	max-width: 667px;
+	margin: 0;
+}
+header{
+	max-width:667px;
+}
+/* header
+-------------------------------------*/
+.logo{
+	margin:10px 0px 0px 10px;
+}
+.spNone {
+	display: block;
+}
+.pcOn {
+	display: none;
+}
+.global-navi-bar{
+	background-image:none;
+	background-repeat:none;
+}
+/* main visual
+-------------------------------------*/
+
+/* main contents
+-------------------------------------*/
+.contentbox{
+	padding-bottom: 130px;
+	height: auto;
+}
+.contentbox-img{
+	max-width: 100%;
+	float: none;
+	margin-right: 0;
+}
+h1{
+	font-size: 30px;
+	padding-top: 55px;
+}
+#sec0 ul{
+	display: flex;
+	justify-content: center;
+}
+#sec0 ul li{
+	margin-left: 0;
+}
+h2{
+	font-size:15px!important;
+	line-height: 20pt;
+	padding-left: 65%;
+}
+.anchor-list{
+	height: 80px;
+}
+}
+@media screen and (min-width:250px) and ( max-width:320px){
+.contentbox{
+	padding-bottom: 210px;
+
+}
+}

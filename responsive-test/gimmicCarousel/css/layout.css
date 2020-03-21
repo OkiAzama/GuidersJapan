@@ -1,0 +1,14 @@
+html,
+body,
+#wrapper {
+	height: 100%;
+}
+body {
+	background: #f4f4f4;
+}
+#wrapper {
+	min-height: 100%;
+	height: auto !important;
+	position: relative;
+	overflow: hidden;
+}

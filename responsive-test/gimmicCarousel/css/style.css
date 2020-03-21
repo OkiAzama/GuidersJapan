@@ -1,0 +1,19 @@
+@charset "utf-8";
+/* CSS Document */
+
+.gimmicCarousel_sample {
+	width: 100%;
+	max-width: 300px;
+	margin: auto;
+	margin-bottom:120px;
+}
+
+.gimmicCarousel_sample ul.slider {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+}
+.gimmicCarousel_sample ul.slider li img {
+	max-width: 100%;
+	height: auto;
+}

@@ -1,0 +1,154 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>Famous spot & Activity</title>
+<meta name="description" content="">
+<meta name="keywords" content="">
+<link href="../../common/css/base.css" rel="stylesheet" type="text/css">
+<link href="css/layout.css" rel="stylesheet" type="text/css">
+<link rel="stylesheet" type="text/css" href="/common/_inc/css/haeder-and-footer.css">
+<link rel="shortcut icon" href="../../common/images/icon/logo.gif">
+<link rel="apple-touch-icon" href="../../common/images/icon/logo.gif">
+
+	<!-- jQuery.jsの読み込み -->
+	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.3.2/jquery.min.js"></script>
+	 
+	<!-- スムーズスクロール部分の記述 -->
+	<script>
+	$(function(){
+	   // #で始まるアンカーをクリックした場合に処理
+	   $('a[href^=#]').click(function() {
+	      // スクロールの速度
+	      var speed = 400; // ミリ秒
+	      // アンカーの値取得
+	      var href= $(this).attr("href");
+	      // 移動先を取得
+	      var target = $(href == "#" || href == "" ? 'html' : href);
+	      // 移動先を数値で取得
+	      var position = target.offset().top;
+	      // スムーススクロール
+	      $('body,html').animate({scrollTop:position}, speed, 'swing');
+	      return false;
+	   });
+	});
+	</script>
+
+<!-- drawer menu -->
+<link rel="stylesheet" type="text/css" href="/common/css/header/reset.css">
+<link rel="stylesheet" type="text/css" href="/common/css/header/layout.css">
+<link rel="stylesheet" type="text/css" href="/common/css/header/font-awesome.min.css">
+<link rel="stylesheet" type="text/css" href="/common/css/header/style.css">
+
+<!-- accordion sp -->
+<link rel="stylesheet" type="text/css" href="/common/css/footer/layout.css">
+<link rel="stylesheet" type="text/css" href="/common/css/footer/style.css">
+<!--accordion SCRIPTS --> 
+<!-- jQueryの読み込み（CDN） -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<script>window.jQuery || document.write('<script src="/js/accordion-sp/vendor/jquery-1.11.3.min.js"><\/script>')</script> 
+<script src="/js/accordion-sp/script.js"></script>
+<meta name="viewport" content="width=device-width, maximum-scale=1.0, minimum-scale=0.5,user-scalable=yes,initial-scale=1.0" />
+
+<!--sp Carousel -->
+<link rel="stylesheet" type="text/css" href="/common/css/main/layout.css">
+</head>
+<body>
+	<div id="wrapper">
+	<!-- Corpolate Logo mark & Global nav are included by the header.html below-->
+	<?php include(dirname(__FILE__).'/../../common/_inc/header.html'); ?>
+
+<!-- SCRIPTS --> 
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<script>window.jQuery || document.write('<script src="/common/js/carousel/vendor/jquery-1.11.3.min.js"><\/script>')</script> 
+<script src="//cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script> 
+<script>window.jQuery.easing.def || document.write('<script src="/js/vendor/jquery.easing.1.3.js"><\/script>')</script> 
+<script src="/js/drawer-menu/script.js"></script>
+	
+	<h1>Famous spot & Activity</h1>	
+	<div id="sec0" class="main-area">
+			<ul>
+				<li class="breadcrumb1"><a href="../world-heritge/world-heritage.html">World Heritage</a></li>
+				<li class="breadcrumb2">Famous spot & Activity</li>
+			</ul>
+	</div>
+	<div class="main-area">
+		<img src="images/main-visual.jpg" width="980" height="320" alt="main visual">
+	</div>
+	<div class="main-area">
+	<p class="explaining">Please click the designated area from the options below.</p>
+		<ul class="anchor-list">
+			<li class="anchor-list-float"><a href="#sec1">Churaumi Aquarium</a></li>
+			<li class="anchor-list-float"><a href="#sec2">Okinawa Botanical Park</a></li>
+			<li class="anchor-list-float"><a href="#sec3">Scuba Diving</a></li>
+			<li class="anchor-list-float"><a href="#sec4">Chatan Shopping area</a></li>
+			<li class="anchor-list-float"><a href="#sec5">Kokusaidori Street</a></li>
+		</ul>
+	
+	<div class="contentbox">
+		<div id="sec1">
+			<img src="images/whale-shark.jpg" width="490" height="250" alt="whale-shark" class="contentbox-img">
+		</div>
+		<div class="text">
+				<p class="inner-text"><b>Churaumi Aquarium</b><br />
+			The aquarium is located in the northern area of Okinawa. The main tank is 1000 inch wide, 1300 inch tall,400 inch in depth and the acylic plate is 24 inch which is world class thickness. In this tank, three whale sharks, many manta rays, and other fish are swimming. Also, outside of the Aquarium facility, there are flower exhibition center and dolphin show and sometimes taking place for the festival. Most popular event is fireworks show in the summer. When you visit the event, you can enjoy one hour fireworks show.</p>
+				<p class="learn-more"><a href="https://churaumi.okinawa/en/" target="_blank">learn more</a></p>
+				<p class="map"><a href="#sec0">to top</a></p>
+		</div>
+	</div>
+	
+	<div class="contentbox">
+		<div id="sec2">
+			<img src="images/Botanical-Gardens.jpg" width="490" height="250" alt="Botanical-Gardens" class="contentbox-img">
+		</div>
+		<div class="text">
+				<p class="inner-text"><b>Okinawa Botanical Park</b><br />
+		In this facility, big palm tree, tropical and subtropical plants are living, which are from all over the world. The plants in this facility are living in the nature environment, not in the greenhouse.
+The facility has English guide staff. Also, making mini botanical glass pot and other hands-on programs are available. In the animal area, there prepares the feeding program for Squirrel monkey and Capybara. The restaurant named “PEACE” in this facility, serves the cuisine made from the flesh vegetables and herb which is lived in this Garden.</p>
+				<p class="learn-more"><a href="http://www.southeast-botanical.jp/en/" target="_blank">learn more</a></p>
+				<p class="map"><a href="#sec0">to top</a></p>
+		</div>
+	</div>
+	
+	<div class="contentbox">
+			<div id="sec3">
+				<img src="images/scuba-diving.jpg" width="490" height="250" alt="scuba-diving" class="contentbox-img">
+			</div>
+		<div class="text">
+				<p class="inner-text"><b>Scuba Diving</b><br />
+			Thanks to warm climate and environmental friendly policy of the prefecture, Okinawa has been keeping beautiful nature. Scuba Diving is one of popular activity in the island. When you swim in the ocean, you can look tropical fish and coral reef. Many Scuba Diving spot is located in this island, which means each Scuba Diving sopts have individual attractive point. Also other marine activity is available. We are preparing the information so, please wait the next website update. </p>
+				<p class="learn-more"><a href="https://www.padi.com/scuba-vacations/okinawa" target="_blank">learn more</a></p>
+				<p class="map"><a href="#sec0">to top</a></p>
+		</div>
+	</div>
+	
+	<div class="contentbox">
+			<div id="sec4">
+				<img src="images/Chatan.jpg" width="490" height="250" alt="Chatan" class="contentbox-img">
+			</div>
+		<div class="text">
+				<p class="inner-text"><b>Chatan Shopping area</b><br />
+	This area is designed as California of USA. Restaurant and many events are taking place here. American food, Mexican food, and Italian food shops are located. Also, this area has beach named “sunset beach”. In the summer season, many people will be there and enjoy the beach. This area has other shopping mall named “Depot Island”. The area has fashion, famous brand shop, and original design accessory store. Shopping lover should go to the Depot Island.</p>
+				<p class="learn-more"><a href="http://www.okinawa-americanvillage.com/?shopcat=en-shopping&lang=en" target="_blank">learn more</a></p>
+				<p class="map"><a href="#sec0">to top</a></p>
+		</div>
+	</div>
+	
+	<div class="contentbox">
+			<div id="sec5">
+				<img src="images/Kokusaidori-street.jpg" width="490" height="250" alt="Kokusaidori-street" class="contentbox-img">
+			</div>
+		<div class="text">
+				<p class="inner-text"><b>Kokusaidori Street</b><br />
+			The street is one mile length. There are many shops for the seightseeing prople. If you hungry, the street has many restaurant of Japanese, Chinese, ethnic, American or European. The arcade which is located in the middle of the street, sells fruit, vegetable, and meat etc. It must be interesting experience because you can touch local grocery and people.
+If you would like to buy souvenir for friends or family, you can find unique shops. I recommend you visiting this attractive street. </p>
+				<p class="learn-more"><a href="https://okinawahai.com/kokusai-street-2/" target="_blank">learn more</a></p>
+				<p class="map"><a href="#sec0">to top</a></p>
+		</div>
+	</div>
+</div>
+	<!--footer nav is included by the footer.html below-->
+	<?php include(dirname(__FILE__).'/../../common/_inc/footer.html'); ?>
+</div>
+</body>
+</html>

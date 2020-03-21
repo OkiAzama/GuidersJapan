@@ -1,0 +1,190 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>World Heritage</title>
+<meta name="description" content="">
+<meta name="keywords" content="">
+<link href="../../common/css/base.css" rel="stylesheet" type="text/css">
+<link href="css/layout.css" rel="stylesheet" type="text/css">
+<link rel="stylesheet" type="text/css" href="/common/_inc/css/haeder-and-footer.css">
+<link rel="shortcut icon" href="../../common/images/icon/logo.gif">
+<link rel="apple-touch-icon" href="../../common/images/icon/logo.gif">
+
+	<!-- jQuery.jsの読み込み -->
+	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.3.2/jquery.min.js"></script>
+	 
+	<!-- スムーズスクロール部分の記述 -->
+	<script>
+	$(function(){
+	   // #で始まるアンカーをクリックした場合に処理
+	   $('a[href^=#]').click(function() {
+	      // スクロールの速度
+	      var speed = 400; // ミリ秒
+	      // アンカーの値取得
+	      var href= $(this).attr("href");
+	      // 移動先を取得
+	      var target = $(href == "#" || href == "" ? 'html' : href);
+	      // 移動先を数値で取得
+	      var position = target.offset().top;
+	      // スムーススクロール
+	      $('body,html').animate({scrollTop:position}, speed, 'swing');
+	      return false;
+	   });
+	});
+	</script>
+
+<!-- drawer menu -->
+<link rel="stylesheet" type="text/css" href="/common/css/header/reset.css">
+<link rel="stylesheet" type="text/css" href="/common/css/header/layout.css">
+<link rel="stylesheet" type="text/css" href="/common/css/header/font-awesome.min.css">
+<link rel="stylesheet" type="text/css" href="/common/css/header/style.css">
+
+<!-- accordion sp -->
+<link rel="stylesheet" type="text/css" href="/common/css/footer/layout.css">
+<link rel="stylesheet" type="text/css" href="/common/css/footer/style.css">
+<!--accordion SCRIPTS --> 
+<!-- jQueryの読み込み（CDN） -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<script>window.jQuery || document.write('<script src="/js/accordion-sp/vendor/jquery-1.11.3.min.js"><\/script>')</script> 
+<script src="/js/accordion-sp/script.js"></script>
+<meta name="viewport" content="width=device-width, maximum-scale=1.0, minimum-scale=0.5,user-scalable=yes,initial-scale=1.0" />
+
+<!--sp Carousel -->
+<link rel="stylesheet" type="text/css" href="/common/css/main/layout.css">
+</head>
+<body>
+	<div id="wrapper">
+	<!-- Corpolate Logo mark & Global nav are included by the header.html below-->
+	<?php include(dirname(__FILE__).'/../../common/_inc/header.html'); ?>
+
+<!-- SCRIPTS --> 
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<script>window.jQuery || document.write('<script src="/common/js/carousel/vendor/jquery-1.11.3.min.js"><\/script>')</script> 
+<script src="//cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script> 
+<script>window.jQuery.easing.def || document.write('<script src="/js/vendor/jquery.easing.1.3.js"><\/script>')</script> 
+<script src="/js/drawer-menu/script.js"></script>
+
+	<div class="wrap">
+
+	<h1>World Heritages</h1>
+	<div id="sec0" class="main-area">
+			<ul>
+				<li class="breadcrumb1">World Heritage</li>
+				<li class="breadcrumb2"><a href="../famous-spot-and-activity/famous-spot-and-activity.html">Famous spot & Activity</a></li>
+			</ul>
+	</div>
+	<div class="main-area relative mv-layout">
+		<h2>This Island has <br /> the nine world heritages.</h2>
+		<img src="images/main-visual.jpg" width="" height="" alt="syurijyo-castle">
+	</div>
+
+	<div class="main-area">
+	<p class="explaining">Please click the designated area from the options below.</p>
+		<ul class="anchor-list">
+			<li class="anchor-list-float"><a href="#sec1">Syurijyo Castle Ruin</a></li>
+			<li class="anchor-list-float"><a href="#sec2">Sonohyan-Utaki-Stone-Gate</a></li>
+			<li class="anchor-list-float"><a href="#sec3">Tamaudun Mausoleum</a></li>
+			<li class="anchor-list-float"><a href="#sec4">Shikinaen Garden</a></li>
+			<li class="anchor-list-float"><a href="#sec5">Sefa-utaki</a></li>
+			<li class="anchor-list-float"><a href="#sec6">Katsurenjyo Castle Ruin</a></li>
+			<li class="anchor-list-float"><a href="#sec7">Nakijinjyo castle Ruin</a></li>
+		</ul>
+	
+	<div class="contentbox">
+	<div id="sec1">
+	<img src="images/syurijyo-castle.jpg" width="490" height="250" alt="syurijyo-castle" class="contentbox-img">
+	</div>
+		<div class="text">
+				<p class="inner-text"><b>Syurijyo Castle Ruin</b><br />
+			The castle has two charactaristic architecture of Japan and China because *Ryukyu Kingdom had been trading with neighboring countries. There is no belief when the castle built but according to some histrians point out in 1427, in the age the castle already had exsited. This kingdom had continued 500 years and there was central of politics. Also, a lot of ceremony and festivals are taken place. This castle is reconstructed in 1992 by people who knows archtecture of it, because the castle was destroyed by the 2nd World War. <br />
+		*the old name of Okinawa </p>
+				<p class="learn-more"><a href="http://oki-park.jp/shurijo/en/" target="_blank">learn more</a></p>
+				<p class="map"><a href="#sec0">to map</a></p>
+		</div>
+	</div>
+	
+	<div class="contentbox">
+	<div id="sec2">
+	<img src="images/Sonohyan-Utaki-Stone-Gate.jpg" width="490" height="250" alt="Sonohyan-Utaki-Stone-Gate" class="contentbox-img">
+	</div>
+		<div class="text">
+
+				<p class="inner-text"><b>Sonohyan-Utaki Stone Gate</b><br />
+			The gate had been built in 1519 and located in the same place with Syurijyo Castle. The gate is made from limestone and using the wooden architecture. The design of this roof is mixed with Japan and China architecture.<br />
+	Behind of the gate is the area of praying for King’s good luck of his travel. Also, the gate had the role of queen’s ceremony to become priest. Now a day some elder women comes here to pray.</p>
+				<p class="learn-more"><a href="http://en.okinawastory.jp/facility/sonohyanutakiishimon" target="_blank">learn more</a></p>
+				<p class="map"><a href="#sec0">to map</a></p>
+		</div>
+	</div>
+	
+	<div class="contentbox">
+		<div id="sec3">
+		<img src="images/tamaudun-OML.jpg" width="490" height="250" alt="tamaudun-OML" class="contentbox-img">
+		</div>
+		<div class="text">
+				<p class="inner-text"><b>Tamaudun Mausoleum</b><br />
+			The imperial tomb is called Tamaudun and built in 1501 where is located nearby Syurijyo castle. The site, covering an area of 2,442㎡ consists of two stone-walled enclosures, the three compartments of the mausoluem itself facing north and backed by a natural cliff to the south. In this tomb where stores king’s ash and his wife ash from the end of 15 centuries through 19 centuries.
+	During the 2nd World War the tomb had been almost destroyed, but in 1977 it had restored.  
+	</p>
+				<p class="learn-more"><a href="http://en.okinawastory.jp/facility/tamaudun" target="_blank">learn more</a></p>
+				<p class="map"><a href="#sec0">to map</a></p>
+		</div>
+	</div>
+	
+	<div class="contentbox">
+		<div id="sec4">
+		<img src="images/Shikinaen-OML.jpg" width="490" height="250" alt="Shikinaen-OML" class="contentbox-img">
+		</div>
+		<div class="text">
+				<p class="inner-text"><b>Shikinaen Royal Garden</b><br />
+		The Royal Garden had been built in 1799 for the royal family as the villa and also entertains envoys from China. The layout of the garden is that locating pond in the center of the garden, house is built by using royal architecture, and artificial mountain, fruit farm and trees are surrounding the pond. The garden was designed as Japanese style and influenced by Chinese style. This garden was designed so that ocean cannot be viewed from anywhere in the garden. One of the reasons is that the designers of the garden wanted the visitors to regard that the island is actually large. </p>
+				<p class="learn-more"><a href="http://en.okinawastory.jp/facility/shikinaen" target="_blank">learn more</a></p>
+				<p class="map"><a href="#sec0">to map</a></p>
+		</div>
+	</div>
+	
+	<div class="contentbox">
+		<div id="sec5">
+		<img src="images/Sefa-utaki.JPG" width="490" height="250" alt="Sefa-utaki" class="contentbox-img">
+		</div>
+		<div class="text">
+				<p class="inner-text"><b>Sefa-utaki</b><br />
+			The spot is for the highest sanctuary area where had been created by the god “Amamikiyo” who is also known as to originate the Ryukyu Kingdam. Passing through the huge two rocks there is a view of the God Island “Kudaka Island”. This sanctuary area was prohibited to enter by the men. The highest position of the woman priest held a ceremony which had an important role of centralization for the right of kings which energized citizen’s devotion and their mental.</p>
+				<p class="learn-more"><a href="http://okinawa-nanjo.jp/sefa/en/" target="_blank">learn more</a></p>
+				<p class="map"><a href="#sec0">to map</a></p>
+		</div>
+	</div>
+	
+	<div class="contentbox">
+		<div id="sec6">
+		<img src="images/Katsurenjyo-castle-OML.jpg" width="490" height="250" alt="Katsurenjyo-castle-OML" class="contentbox-img">
+		</div>
+		<div class="text">
+				<p class="inner-text"><b>Katsurenjyo Castle Ruin</b><br />
+			The castle had been built in about 1200, and became at the height of its prosperity when the military commander “Amawari” governed the castle. The traded goods with mainland Japan, Korea and China had been unearthed from the site. “Amawari” had strengthened the military force by trading business with neighboring countries and defeated the “Nakagusuku” castle military commander “Gosamaru” in 1458. After the battle, he tried to capture a stronghold of Syurijyo castle but, he had encountered by them and died.</p>
+				<p class="learn-more"><a href="https://www.visitokinawa.jp/attractions/world-heritage/katsuren-jo-site" target="_blank">learn more</a></p>
+				<p class="map"><a href="#sec0">to map</a></p>
+		</div>
+	</div>
+	
+	<div class="contentbox">
+		<div id="sec7">
+		<img src="images/Nakijinjyo-castle.JPG" width="490" height="250" alt="syurijyo-castle" class="contentbox-img">
+		</div>
+		<div class="text">
+				<p class="inner-text"><b>Nakijinjyo castle Ruin</b><br />
+			The castle was for the northern king which was made from ancient limestone and built on the hill which has about 330 feet height. One mile of the castle wall which is spreading on the curvy land looks beautiful. They had operated the trading business with Japan, China and Southeast Asia for strengthening their force. However they had been defeated by the military commander “Shohashi” from central of Ryukyu in 1416. After the battle the site had role of observation about Northern areas government by the Shurijyo castle loyal family.</p>
+				<p class="learn-more"><a href="https://www.visitokinawa.jp/attractions/world-heritage/nakijin-jo-site" target="_blank">learn more</a></p>
+				<p class="map"><a href="#sec0">to map</a></p>
+		</div>
+	</div>
+</div>
+</div>
+
+	<!--footer nav is included by the footer.html below-->
+	<?php include(dirname(__FILE__).'/../../common/_inc/footer.html'); ?>
+
+</div>
+</body>
+</html>
