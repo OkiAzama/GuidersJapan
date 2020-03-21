@@ -1,0 +1,173 @@
+@charset "utf-8";
+
+/* parts
+-------------------------------------*/
+.wrap {
+	overflow: hidden;
+	margin: 0 auto;
+	width: 100%;
+}
+.spNone {
+	display: none;
+}
+.pcOn {
+	display: block;
+}
+/* layout
+-------------------------------------*/
+
+/* mainvisual
+-------------------------------------*/
+h1{
+	font-size:40px;
+	clear:both;
+	text-align:center;
+	padding-top:30px;
+}
+#sec0 ul li{
+	margin-left: 20px;
+}
+.breadcrumb1{
+	float:left;
+	border-right:solid 1px;
+	padding-right:15px;
+	margin-bottom: 20px;
+}
+.breadcrumb2{
+	float:left;
+	padding-left:15px;
+}
+.absolute-label{ 
+    position: absolute;
+    top:0px;  
+    left:0px;  
+}
+/* main contents
+-------------------------------------*/
+.main-area{
+	max-width: 980px;
+	margin: 0 auto;
+}
+.lead{
+	font-size:15px;
+	clear: both;
+	margin: 0 2% 30px;
+}
+.frame{
+	display: flex;
+	justify-content: space-evenly;
+	margin-bottom: 32px;
+}
+h2{
+	text-align:center;
+	font-size:20px;
+}
+.contentboxL{
+	width:45%;
+	height:auto;
+	background-color:#ebebeb;
+}
+.contentboxL p{
+	padding:0px 15px 0px 15px;
+	font-size:14px;
+}
+.contentboxR{
+	width:45%;
+	height:auto;
+	background-color:#ebebeb;
+}
+.contentboxR p{
+	padding:0px 15px 0px 15px;
+	font-size:14px;
+}
+.contentboxBlank{
+	width:45%;
+	height:auto;
+	background-color:#fff;
+}
+.contentboxBlank p{
+	padding:0px 15px 0px 15px;
+	font-size:14px;
+}
+
+.learn-more{
+	font-weight:bold;
+	text-align:right;
+}
+.learn-more a{
+	color:#de0000;
+	text-decoration:none;
+	font-size:9pt;
+}
+.learn-more a:hover{
+	opacity:0.6;
+}
+
+
+@media screen and (min-width:320px) and ( max-width:667px) {
+.wrap {
+	max-width: 667px;
+	margin: 0;
+}
+header{
+	max-width:667px;
+}
+/* header
+-------------------------------------*/
+.logo{
+	margin:10px 0px 0px 10px;
+}
+.spNone {
+	display: block;
+}
+.pcOn {
+	display: none;
+}
+.global-navi-bar{
+	background-image:none;
+	background-repeat:none;
+}
+/* main visual
+-------------------------------------*/
+
+/* main contents
+-------------------------------------*/
+h1{
+	padding-top:55px;
+	font-size: 30px;
+}
+#sec0 ul li{
+	margin-left: 0;
+}
+#sec0 ul{
+	display: flex;
+	justify-content: center;
+}
+.lead{
+	margin: 0 auto 30px;
+	width: 90%;
+}
+.frame{
+	display: block;
+	justify-content: unset;
+	margin-bottom: 0;
+}
+.main-area .contentboxL h2{
+	margin-top: 15px;
+}
+.main-area .contentboxR h2{
+	margin-top: 15px;
+}
+.contentboxL{
+	width:100%;
+	margin-bottom: 30px;
+}
+.contentboxR{
+	width:100%;
+	margin-bottom: 30px;
+}
+.cont_center{
+	display: flex;
+	justify-content: center;
+}
+}

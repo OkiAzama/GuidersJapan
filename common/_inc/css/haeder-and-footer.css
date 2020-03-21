@@ -1,0 +1,87 @@
+/* PC表示 header
+-------------------------------------*/
+.global-navi-bar{
+	background-image:url(/common/images/heder-and-footer/global-navi.jpg);
+	background-repeat:repeat-x;
+	margin-top: 10px;
+}
+.catch{
+	max-width: 980px;
+	margin: 0 auto;
+	position: relative;
+	top:-30px;
+	color:#fff;
+}
+.catch-text{
+	width: 100%;
+	padding-top: 4px;
+}
+.global-navi-list{
+	float:left;
+	padding:0px 20px 0px 20px;
+	border-right:solid 1px;
+	line-height:initial;
+}
+.global-navi-list a{
+	color:#fff;
+	text-decoration:none;
+}
+.global-navi-list a:hover{
+	color:#ffff00;
+}
+
+
+/* PC表示 footer
+-------------------------------------*/
+.footer-wrap{
+	clear: both;
+	height:130px;
+	background-image:url(/common/images/heder-and-footer/footer-bar.jpg);
+	background-repeat:repeat-x;
+	color:#000;
+}
+.footer-wrap li a{
+	text-decoration:none;
+	color:#000;
+}
+.footer-wrap a:hover{
+	color:#ffff00;
+}
+	/* footer list
+	-------------------------------------*/
+.main-area-footer{
+	max-width: 800px;
+	margin: 0 auto;
+	text-align: center;
+	padding-top: 15px;
+}
+	.footer-home{
+	float: left;
+	width: 20%;
+	}
+	.footer-about-us{
+	float: left;
+	width: 20%;
+	}
+	.footer-guide{
+	float: left;
+	width: 20%;
+	}
+	.footer-sightseeing{
+	float: left;
+	width: 20%;
+	}
+	.footer-contact{
+	float: left;
+	width: 20%;
+	}
+	.footer-copy{
+	float: left;
+	font-size:11px;
+	font-style:italic;
+	text-align: left;
+	padding-top: 10px;
+	}
+	.footer-policy{
+	float: right;
+	}

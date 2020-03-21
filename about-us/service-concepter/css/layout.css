@@ -1,0 +1,121 @@
+@charset "utf-8";
+
+/* parts
+-------------------------------------*/
+.wrap {
+	overflow: hidden;
+	margin: 0 auto;
+	width: 100%;
+}
+.spNone {
+	display: none;
+}
+.pcOn {
+	display: block;
+}
+/* layout
+-------------------------------------*/
+/* header
+-------------------------------------*/
+
+/* mainvisual
+-------------------------------------*/
+h1{
+	font-size:40px;
+	clear:both;
+	text-align:center;
+	padding-top:30px;
+}
+.breadcrumb1{
+	float:left;
+	border-right:solid 1px;
+	padding-right:15px;
+	margin-bottom: 20px;
+}
+.main-area ul li{
+	margin-left: 20px;
+}
+.breadcrumb2{
+	float:left;
+	padding-left:15px;
+}
+.absolute-label{ 
+    position: absolute;
+    top:0px;  
+    left:0px;  
+}
+/* main contents
+-------------------------------------*/
+.main-area{
+	max-width: 980px;
+	margin: 0 auto;
+}
+.frame{
+	padding-top:50px;
+	font-size:14px;
+	margin: 0 2% 0;
+}
+.image{
+	float:right;
+	padding-left:10px;
+}
+.white-space{
+	padding-bottom:30px;
+}
+.signature{
+	text-align:right;
+}
+.sign{
+	float:right;
+	padding-bottom:40px;
+}
+
+@media screen and (min-width:320px) and ( max-width:667px) {
+.wrap {
+	max-width: 667px;
+	margin: 0;
+}
+header{
+	max-width:667px;
+}
+/* header
+-------------------------------------*/
+.logo{
+	margin:10px 0px 0px 10px;
+}
+.spNone {
+	display: block;
+}
+.pcOn {
+	display: none;
+}
+.global-navi-bar{
+	background-image:none;
+	background-repeat:none;
+}
+/* main visual
+-------------------------------------*/
+.main-area ul{
+	display: flex;
+	justify-content: center;
+}
+.main-area ul li{
+	margin-left: 0;
+}
+/* main contents
+-------------------------------------*/
+h1{
+	padding-top:55px;
+	font-size: 30px;
+}
+.image{
+	float: none;
+	padding-left:0;
+	text-align: center;
+	margin-bottom: 15px;
+}
+.frame{
+	padding-top: 0;
+	padding-bottom: 80px;
+}
+}

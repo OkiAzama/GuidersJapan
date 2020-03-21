@@ -1,0 +1,72 @@
+﻿@charset "utf-8";
+
+/* ==========================================================================
+Reset & Base Setting
+========================================================================== */
+/* default style reset
+-------------------------------------*/
+html {background: #fff;}
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,input,textarea,p,blockquote,th,td {padding: 0; margin: 0;}
+table {border-collapse: separate;border-spacing: 0;}
+fieldset,img {border: 0;}
+img {vertical-align: top;}
+address,caption,em,strong,th {font-style: normal;font-weight: normal;}
+ol,ul {list-style: none;}
+caption,th,td {text-align: left;}
+h1,h2,h3,h4,h5,h6 {font-size: 100%;font-weight: normal;}
+sup {vertical-align: text-top;}
+sub {vertical-align: text-bottom;}
+input,textarea,select {font-family: inherit;font-size: inherit;font-weight: inherit;}
+input,textarea,select {*font-size: 100%;}
+
+a:link {text-decoration: underline;}
+a:visited {text-decoration: underline;}
+a:hover {text-decoration: none;cursor: pointer!important;}
+a:active {text-decoration: underline;}
+
+/* body setting
+-------------------------------------*/
+body {
+	color: #333;
+	font-family: Arial, "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", "メイリオ", Meiryo, sans-serif;
+	font-size: 75%;
+	text-align: left;
+	line-height: 1.7;
+}
+
+html: not(: target) body {
+	font-size: 12px;
+}
+
+/* clearfix
+-------------------------------------*/
+.clearfix: before,
+.clearfix: after {
+	display: table;
+	content: "";
+}
+
+.clearfix: after {
+	clear: both;
+}
+
+.clearfix {
+	zoom: 1;
+}
+
+/* body setting
+-------------------------------------*/
+@media only screen and (max-device-width: 640px){
+body {
+	min-width: 320px;
+	color: #333;
+	font-family: Arial, "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", "メイリオ", Meiryo, sans-serif;
+	font-size: 75%;
+	text-align: left;
+	line-height: 1.7;
+}
+
+html: not(: target) body {
+	font-size: 12px;
+}
+}

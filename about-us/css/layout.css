@@ -1,0 +1,148 @@
+@charset "utf-8";
+
+/* parts
+-------------------------------------*/
+.wrap {
+	overflow: hidden;
+	margin: 0 auto;
+	width: 100%;
+}
+.spNone {
+	display: none;
+}
+.pcOn {
+	display: block;
+}
+/* layout
+-------------------------------------*/
+
+/* mainvisual
+-------------------------------------*/
+.relative{
+    position: relative;  
+}
+.absolute-h1{ 
+    width: 475px;
+    position: absolute;
+    color: #ffff00;
+    font-size: 40px;
+    top: 0;
+    left:0;
+    padding-left: 30px;
+    background: linear-gradient(90deg, blue, transparent);
+}
+/* main contents
+-------------------------------------*/
+.main-area{
+	max-width: 980px;
+	margin: 0 auto;
+}
+ul li a img:hover{
+	opacity:0.6;
+}
+.frame{
+	padding: 50px 0 30px;
+}
+.two-column-layout{
+	width: 100%;
+	height: 240px;
+	background-color: #efefef;
+	margin-bottom: 30px;
+	padding-bottom: 30px;
+}
+.two-column-img{
+	float: left;
+	max-width: 50%;
+	margin-right: 20px;
+}
+.text{
+	max-width: 100%;
+	height:245.66px;
+	font-size:11pt;
+	margin-bottom: 30px;
+	line-height: 1.7;
+}
+.inner-text{
+	padding: 20px 30px 0;
+}
+.two-column-clear{
+	clear: both;
+}
+.learn-more{
+	font-weight:bold;
+	text-align:right;
+	font-size:9pt;
+	padding-right:40px;
+}
+.text p a{
+	text-decoration:none;
+	color:#de0000;
+}
+.text p a:hover{
+	opacity:0.6;
+}
+
+@media screen and (min-width:320px) and ( max-width:667px) {
+.wrap {
+	max-width: 667px;
+	margin: 0;
+}
+header{
+	max-width:667px;
+}
+/* header
+-------------------------------------*/
+.logo{
+	margin:10px 0px 0px 10px;
+}
+.spNone {
+	display: block;
+}
+.pcOn {
+	display: none;
+}
+.main-area{
+	padding: 0;
+}
+.global-navi-bar{
+	background-image:none;
+	background-repeat:none;
+}
+/* main visual
+-------------------------------------*/
+.SP-mv{
+	margin-top: 51px;
+}
+.absolute-h1{ 
+    width: 100%;
+    font-size: 30px;
+    padding-left: 15px;
+    line-height: 1.5;
+}
+/* main contents
+-------------------------------------*/
+.two-column-layout{
+	height: auto;
+	background-color: white;
+	margin-bottom: 0;
+	padding-bottom: 0;
+}
+.two-column-img{
+	float: none;
+	max-width: 100%;
+	width: 100%;
+}
+.text{
+	float: none;
+	width: 100%;
+	height: auto;
+	margin-bottom: 50px;
+	background-color: #efefef;
+}
+.frame{
+	padding: 30px 0px 0px;
+}
+.learn-more{
+	padding-bottom: 15px;
+}
+}

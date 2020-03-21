@@ -1,0 +1,31 @@
+html,
+body,
+#wrapper {
+	height: 100%;
+}
+#wrapper {
+	height: auto !important;
+	position: relative;
+	overflow: hidden;
+}
+h2 {
+	font-size: 20px;
+}
+section {
+	margin-bottom: 60px;
+}
+.example {
+	background: #FFF;
+}
+
+/*フッター
+***********************************************************/
+
+#footer{
+	background:#333;
+	color:#FFF;
+	text-align:center;
+	padding:10px;
+}
+/*フッター（ここまで）
+***********************************************************/

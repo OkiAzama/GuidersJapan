@@ -1,0 +1,38 @@
+/* CSS Document */
+
+.navAccordion_sample > dt,
+.navAccordion_sample > dd {
+	background: #3b93ff;
+	border-top: 1px solid #FFF;
+}
+.navAccordion_sample > dt {
+	position: relative;
+	padding: 10px 20px;
+	color: #FFF;
+	cursor: pointer;
+	outline: none; 
+}
+.navAccordion_sample > dt:focus {
+	background: #3b93ff;
+}
+
+.navAccordion_sample > dt::after {
+	position: absolute;
+	top: 0.8em;
+	right: 10px;
+	font-family: FontAwesome;
+	content: "\f078";
+}
+.navAccordion_sample > dt.open::after {
+	content: "\f077";
+}
+.navAccordion_sample > dt:first-child {
+	border-top: none;
+}
+.navAccordion_sample > dd {
+	border-left: solid 1px #EEE;
+	border-right: solid 1px #EEE;
+	background: #FFF;
+	color: #333;
+	padding: 20px;
+}
